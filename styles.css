@@ -1,1 +1,65 @@
 /*  your css code here. If applicable */
+#grid{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	grid-template-rows:1fr 1fr 1fr 1fr 1fr;
+	
+}
+#div1{
+	grid-column:1/5;
+	border:2px solid black;
+	margin:2px;
+}
+#div2{
+	grid-row:2/9;
+	border:2px solid black;
+	grid-column:1/1;
+	margin:2px;
+}
+#div3{
+	grid-row:2/2;
+	border:2px solid black;
+	margin:2px;
+	
+}
+#div4{
+	grid-row:2/2;
+	grid-column:3/5;
+	border:2px solid black;
+	margin:2px;
+}
+#div5{
+	grid-row:3/3;
+	grid-column:2/4;
+	border:2px solid black;
+	margin:2px;
+}
+#div6{
+	grid-row:3/3;
+	border:2px solid black;
+	margin:2px;
+	
+}
+#div7{
+	grid-row:4/4;
+	border:2px solid black;
+	margin:2px;
+}
+#div8{
+	grid-row:4/4;
+	border:2px solid black;
+	margin:2px;
+	
+}
+#div9{
+	grid-row:4/4;
+	border:2px solid black;
+	margin:2px;
+}
+#div10{
+	grid-row:5/5;
+	grid-column:2/5;
+	border:2px solid black;
+	margin:2px;
+	
+}
