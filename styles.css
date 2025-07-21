@@ -1,8 +1,8 @@
 /*  your css code here. If applicable */
 #grid{
 	display:grid;
-	grid-template-columns:1fr 1fr 1fr 1fr;
-	grid-template-rows:1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns:242.5px 242.5px 242.5px 242.5px;
+	grid-template-rows:124px 124px 124px 124px 124px;
 	
 }
 #div1{
